@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://eolnuha.github.io/blog/blog</id>
+    <id>https://eolnuha.github.io/root/blog</id>
     <title>Make it in your 20s Blog</title>
     <updated>2023-02-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://eolnuha.github.io/blog/blog"/>
+    <link rel="alternate" href="https://eolnuha.github.io/root/blog"/>
     <subtitle>Make it in your 20s Blog</subtitle>
-    <icon>https://eolnuha.github.io/blog/img/favicon.ico</icon>
+    <icon>https://eolnuha.github.io/root/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://eolnuha.github.io/blog/blog/welcome</id>
-        <link href="https://eolnuha.github.io/blog/blog/welcome"/>
+        <id>https://eolnuha.github.io/root/blog/welcome</id>
+        <link href="https://eolnuha.github.io/root/blog/welcome"/>
         <updated>2023-02-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to the first blog]]></summary>
         <content type="html"><![CDATA[<p>Welcome to the first blog</p>]]></content>
