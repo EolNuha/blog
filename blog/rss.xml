@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Make it in your 20s Blog</title>
-        <link>https://eolnuha.github.io/blog</link>
+        <link>https://eolnuha.github.io/blog/blog</link>
         <description>Make it in your 20s Blog</description>
         <lastBuildDate>Sun, 26 Feb 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://eolnuha.github.io/blog/welcome</link>
-            <guid>https://eolnuha.github.io/blog/welcome</guid>
+            <link>https://eolnuha.github.io/blog/blog/welcome</link>
+            <guid>https://eolnuha.github.io/blog/blog/welcome</guid>
             <pubDate>Sun, 26 Feb 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to the first blog]]></description>
             <content:encoded><![CDATA[<p>Welcome to the first blog</p>]]></content:encoded>

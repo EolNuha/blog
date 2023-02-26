@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[867],{1457:a=>{a.exports=JSON.parse('{"label":"makeitinyour20s","permalink":"/blog/tags/makeitinyour-20-s","allTagsPath":"/blog/tags","count":1}')}}]);
