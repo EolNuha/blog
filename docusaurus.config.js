@@ -87,12 +87,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          {to: '/tutorials', label: 'Tutorials', position: 'left'},
           {to: '/posts', label: 'Posts', position: 'left'},
         ],
       },
