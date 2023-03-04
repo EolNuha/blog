@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
-description: "Get Started with Python: Python is a high-level programming language that can be used for a wide range of applications. In this tutorial we will discuss the basics of Python and provide a step-by-step guide on how to install it on your computer."
-keywords: [python intro, get started with python, install python, python tutorial]
+description: "Python Data Types: Python is an object-oriented programming language, which means that everything in Python is an object. One of the most important aspects of Python programming is understanding data types."
+keywords: [python data types, python integers, python strings, python collections]
 ---
 
 # Python Data Types
