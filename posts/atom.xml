@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://eolnuha.github.io/blog/posts</id>
-    <title>Make it in your 20s Blog</title>
+    <title>The InnoHive Blog</title>
     <updated>2023-02-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://eolnuha.github.io/blog/posts"/>
-    <subtitle>Make it in your 20s Blog</subtitle>
+    <subtitle>The InnoHive Blog</subtitle>
     <icon>https://eolnuha.github.io/blog/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
