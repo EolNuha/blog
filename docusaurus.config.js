@@ -1,6 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+//deploy command: cmd /C 'set "GIT_USER=eolnuha" && yarn deploy'
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -14,12 +16,12 @@ const config = {
   url: 'https://eolnuha.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/root/',
+  baseUrl: '/blog/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'eolnuha', // Usually your GitHub org/user name.
-  projectName: 'root', // Usually your repo name.
+  projectName: 'blog', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -33,15 +35,21 @@ const config = {
   },
 
   presets: [
+    
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      '@docusaurus/preset-classic',
+      {
         docs: {
+          // id: 'product', // omitted => default instance
+          path: 'docs',
+          routeBasePath: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
+          // ... other options
         },
         blog: {
           showReadingTime: true,
+          path: 'posts',
+          routeBasePath: 'posts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -50,14 +58,21 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
-  
-  // plugins: [
-  //   '@docusaurus/plugin-content-blog',
-  //   '@docusaurus/plugin-content-pages',
-  // ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+
+      {
+        id: 'python',
+        path: 'python',
+        routeBasePath: 'python',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+  ],
   // themes: ['@docusaurus/theme-classic'],
 
   themeConfig:
@@ -78,7 +93,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/posts', label: 'Posts', position: 'left'},
         ],
       },
       footer: {
@@ -114,8 +129,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Posts',
+                to: '/posts',
               },
               {
                 label: 'GitHub',
