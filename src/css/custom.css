@@ -1,0 +1,62 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #6F8FAF;
+  --ifm-color-primary-dark: #6F8FAF;
+  --ifm-color-primary-darker: #6F8FAF;
+  --ifm-color-primary-darkest: #6F8FAF;
+  --ifm-color-primary-light: #6F8FAF;
+  --ifm-color-primary-lighter: #6F8FAF;
+  --ifm-color-primary-lightest: #6F8FAF;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #6F8FAF;
+  --ifm-color-primary-dark: #6F8FAF;
+  --ifm-color-primary-darker: #6F8FAF;
+  --ifm-color-primary-darkest: #6F8FAF;
+  --ifm-color-primary-light: #6F8FAF;
+  --ifm-color-primary-lighter: #6F8FAF;
+  --ifm-color-primary-lightest: #6F8FAF;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* .navbar__inner {
+  max-width: 1140px;
+  margin: 0 auto;
+} */
+
+
+.homepage .navbar--fixed-top {
+  background: var(--ifm-color-primary) !important;
+}
+
+.homepage .navbar {
+  box-shadow: none !important;
+}
+
+.homepage .navbar .navbar__inner .navbar__title,
+.homepage .navbar .navbar__inner .navbar__item,
+.homepage .navbar .navbar__inner svg path {
+  color: white !important;
+  fill: white !important;
+}
+
+.homepage .navbar .navbar__title:hover,
+.homepage .navbar .navbar__item:hover {
+  color: rgb(233, 233, 233) !important;
+}
+
+
+.homepage .navbar .clean-btn:hover {
+  background-color: rgb(71, 71, 71) !important;
+}
