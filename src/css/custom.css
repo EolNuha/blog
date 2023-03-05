@@ -121,9 +121,9 @@
   background-image: url('../../static/img/logo-left-white.png') !important;
 }
 
-/* .hero {
-  background-image: linear-gradient(to right, #AF6F4E 10%, var(--ifm-color-primary) 70%) !important;
-} */
+.hero {
+  min-height: 400px;
+}
 
 
 .homepage h1 {

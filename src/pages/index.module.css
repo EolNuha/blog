@@ -30,3 +30,9 @@
   align-items: center;
   justify-content: center;
 }
+
+@media only screen and (max-width: 660px) {
+  .heroTitle {
+    font-size: 1.5rem !important;
+  }
+}
