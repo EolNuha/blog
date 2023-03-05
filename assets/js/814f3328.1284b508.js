@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"College Application Process Beginner\u2019s Guide","permalink":"/blog/posts/college-application-process-beginner-guide"}]}')}}]);
