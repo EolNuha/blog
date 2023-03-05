@@ -80,7 +80,7 @@
   width: 100%;
 }
 
-.markdown details img {
+.markdown details img[alt="college-hat-image"] {
   width: 25px;
 }
 

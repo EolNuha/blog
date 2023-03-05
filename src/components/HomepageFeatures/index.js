@@ -31,10 +31,26 @@ function Feature({ img, title, linkTo }) {
 
 const TutorialsList = [
   {
-    title: 'Python Intro',
+    title: 'Python Data Types',
+    img: require('../../../static/img/popular-3.png').default,
+    linkTo: 'python/python-data-types',
+    description: 'Python is an object-oriented programming language, which means that everything in Python is an object.',
+    feature: 'Blog Post',
+    featureImg: require('../../../static/img/python-logo.png').default,
+  },
+  {
+    title: 'College Application Process Beginner’s Guide',
+    img: require('../../../static/img/popular-2.png').default,
+    linkTo: 'posts/college-application-process-beginner-guide',
+    description: 'Everything you need to know on college application!',
+    feature: 'Blog Post',
+    featureImg: require('../../../static/img/blog.png').default,
+  },
+  {
+    title: 'Python Introduction and how to get started',
     img: require('../../../static/img/python-intro.png').default,
     linkTo: 'python/intro',
-    description: 'Python tutorials, learn the basics of python programming.',
+    description: 'What is Python, and how to use it?',
     feature: 'Python',
     featureImg: require('../../../static/img/python-logo.png').default,
   },
@@ -60,7 +76,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <h1>Links</h1>
+        <h1>Features</h1>
         <div className="grid col-3">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
