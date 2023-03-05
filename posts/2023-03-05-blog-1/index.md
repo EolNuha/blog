@@ -201,7 +201,7 @@ Overall, staying organized throughout the college application process can make a
 In addition to filling out the applications themselves, there are several documents that are required for the process. These documents need to be secured and organized in order to ensure that they are readily available when needed. 
 
 *Academic Documents*
-****
+
 Academic documents, including high school transcripts, mid-year reports, and diplomas (if graduated) are essential to the college application process. These documents prove your academic achievements and are often a key factor in the admissions decision. It is important to keep these documents in a secure location, such as a locked file cabinet, and to make copies for backup purposes. 
 
 *Financial Documents*
@@ -232,9 +232,12 @@ Grab your dad or mom, and together start thinking about how to apply for financi
 
 First things first:
 
-*Create an account*: Start by creating an account on the Common App website. This will allow you to access the application and save your progress. 
+*Create an account*: Start by creating an account on the Common App website. This will allow you to access the application and save your progress.
+
 *Fill out the basic information:* Begin by filling out your basic information, including your name, address, and high school. 
+
 *Add colleges:* Once you've filled out your basic information, you can add colleges to your list. Be sure to check the application deadlines and requirements for each school. 
+
 *Complete the sections:* The Common App application is divided into several sections, including academic information, extracurricular activities, and honors. Be sure to complete each section thoroughly and accurately.
 
 After you’ve finalized completing most but all information, you are left with the essays, personal statement, or writing sections.
@@ -278,17 +281,24 @@ Woo-Hoo!! Congratulations! You just applied to college. You did it, well done!
 ## Mentions
 Spreadsheet:
 [https://docs.google.com/spreadsheets/d/1tbjVWZrkHSf6Q8EG6NCrh4Zs_jFKPP35yzdhAMLuvuo/edit#gid=0](https://docs.google.com/spreadsheets/d/1tbjVWZrkHSf6Q8EG6NCrh4Zs_jFKPP35yzdhAMLuvuo/edit#gid=0)
+
 Credit:
 [https://www.youtube.com/watch?v=sHTEAtzq3VI](https://www.youtube.com/watch?v=sHTEAtzq3VI)
 
 YouTube Channels that have helped me out throughout my application process:
 
 [Shaurya Sinha](https://www.youtube.com/@ShauryaSinha)
+
 [Makenna Turner](https://www.youtube.com/@makennajturner)
+
 [Emily Tan](https://www.youtube.com/@emilytan7067)
+
 [Conquer college admissions with Julie Kim](https://www.youtube.com/@ConquerCollegeAdmissions)
+
 [Dyllen Nellis](https://www.youtube.com/@DyllenNellis)
+
 [Joy Zou](https://www.youtube.com/@joyzou)
+
 [Ritesh Verma](https://www.youtube.com/@RiteshVermaREAL)
 
 Though a scary experience, the college application process can be an exciting one with the right mindset and approach. Thank you for reading my first blog! Good luck to everyone out there. It ain’t as hard if you make it fun :)

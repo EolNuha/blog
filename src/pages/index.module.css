@@ -12,6 +12,11 @@
 
 .heroTitle {
   color: white !important;
+  font-size: 3rem !important;
+}
+
+.heroSubtitle {
+  color: white !important;
 }
 
 @media screen and (max-width: 996px) {
