@@ -62,6 +62,25 @@
   background-color: rgb(71, 71, 71) !important;
 }
 
+.navbar-logo {
+  background-image: url('../../static/img/logo-left-black.png');
+  height: 100%;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homepage .navbar-logo {
+  background-image: url('../../static/img/logo-left-white.png');
+}
+
+.homepage .navbar-sidebar .navbar-logo {
+  background-image: url('../../static/img/logo-left-black.png');
+}
+
+[data-theme='dark'] .navbar-logo {
+  background-image: url('../../static/img/logo-left-white.png') !important;
+}
 
 .tutorial {
   border-radius: 10px;

@@ -11,11 +11,12 @@ export default function LogoWrapper(props) {
   return (
     <>
       <Link to={siteConfig.baseUrl} className="navbar__logo">
-        <img className='navbar-logo' src={
+        {/* <img className='navbar-logo' src={
           isHome ? 
             require('../../../../static/img/logo-left-white.png').default : 
             require('../../../../static/img/logo-left-black.png').default} 
-        />
+        /> */}
+        <div className='navbar-logo'></div>
       </Link>
     </>
   );
