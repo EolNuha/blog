@@ -28,7 +28,7 @@ export default function Home() {
         <body className="homepage" />
       </Head>
       <Layout
-        title={`Hello from ${siteConfig.title}`}
+        title={`${siteConfig.title}`}
         description="Description will go into a meta tag in <head />">
         <HomepageHeader />
         <main>
