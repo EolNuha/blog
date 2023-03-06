@@ -38,6 +38,10 @@ const config = {
     [
       '@docusaurus/preset-classic',
       {
+        gtag: {
+          trackingID: 'G-2NV9MCXC3E',
+          anonymizeIP: true,
+        },
         docs: {
           // id: 'product', // omitted => default instance
           path: 'docs',
