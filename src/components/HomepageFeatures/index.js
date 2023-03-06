@@ -35,7 +35,7 @@ const TutorialsList = [
     img: require('../../../static/img/popular-3.png').default,
     linkTo: 'python/python-data-types',
     description: 'Python is an object-oriented programming language, which means that everything in Python is an object.',
-    feature: 'Blog Post',
+    feature: 'Python',
     featureImg: require('../../../static/img/python-logo.png').default,
   },
   {

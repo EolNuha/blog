@@ -56,7 +56,7 @@ export default function DocItemLayout({children}) {
           repoId="R_kgDOJCfm8Q"       
           category="General"       
           categoryId="DIC_kwDOJCfm8c4CUsKu"       
-          mapping="url"       
+          mapping="pathname"       
           reactionsEnabled="1"       
           emitMetadata="0"       
           inputPosition="bottom"       
