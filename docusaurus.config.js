@@ -60,7 +60,7 @@ const config = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
-          ignorePatterns: [],
+          ignorePatterns: ['/blog/docs/**', '/docs/**'],
           filename: 'sitemap.xml',
         },
       },
