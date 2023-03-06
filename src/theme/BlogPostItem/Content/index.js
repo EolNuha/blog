@@ -14,10 +14,10 @@ export default function BlogPostItemContent({children, className}) {
       <Giscus       
         id="general"       
         repo="EolNuha/blog"
-        repoId="R_kgDOJCfm8Q="       
+        repoId="R_kgDOJCfm8Q"       
         category="General"       
         categoryId="DIC_kwDOJCfm8c4CUsKu"       
-        mapping="pathname"       
+        mapping="url"       
         reactionsEnabled="1"       
         emitMetadata="0"       
         inputPosition="bottom"       
