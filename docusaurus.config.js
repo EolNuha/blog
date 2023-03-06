@@ -145,11 +145,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Features',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Tutorials',
+                to: '/tutorials',
+              },
+              {
+                label: 'Posts',
+                to: '/posts',
               },
             ],
           },
@@ -158,15 +162,11 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://stackoverflow.com/users/14683130/eol-nuha',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/eolnuha',
               },
             ],
           },
@@ -174,17 +174,33 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Posts',
-                to: '/posts',
+                label: 'Portfolio',
+                href: 'https://eolnuha.github.io',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/EolNuha',
+              },
+            ],
+          },
+          {
+            title: 'Contact',
+            items: [
+              {
+                label: '+383-49-793-208',
+                to: 'tel:+38349793208',
+              },
+              {
+                label: 'eol.nuha22@gmail.com',
+                to: 'mailto:eol.nuha22@gmail.com',
+              },
+              {
+                html: '<p>Pristina, Kosovo</p>'
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} The InnoHive.`,
       },
       prism: {
         theme: lightCodeTheme,

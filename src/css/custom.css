@@ -86,7 +86,7 @@
 
 .homepage .navbar .navbar__inner .navbar__title,
 .homepage .navbar .navbar__inner .navbar__item,
-.homepage .navbar .navbar__inner svg path {
+.homepage .navbar .navbar__inner .clean-btn svg path {
   color: white !important;
   fill: white !important;
 }
