@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[6619],{6990:l=>{l.exports=JSON.parse('[{"label":"college application","permalink":"/blog/posts/tags/college-application","count":1},{"label":"common app","permalink":"/blog/posts/tags/common-app","count":1}]')}}]);
