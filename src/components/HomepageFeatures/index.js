@@ -8,7 +8,7 @@ const FeatureList = [
     title: 'Tutorials',
     img: require('../../../static/img/tutorial-landing-transparent.png').default,
     linkTo: 'tutorials',
-    description: 'These tutorials provide step-by-step guidance on how to use specific programming languages, including syntax, variables, loops, and functions. Learning these tutorials will make you a very skilled programmer. They can cover a range of programming languages such as Python, Java, JavaScript, C++, and more.'
+    description: 'These tutorials provide step-by-step guidance on how to use specific programming languages, including syntax, variables, loops, and functions. Learning these tutorials will make you a very skilled programmer. They can cover a range of programming languages such as Python, Java, JavaScript, C++.'
   },
   {
     title: 'Posts',
@@ -29,7 +29,7 @@ function Feature({ img, title, linkTo, description }) {
       </div>
       <div>
         <h4>
-          {description}
+          {description} <u>See more</u>
         </h4>
       </div>
     </Link>

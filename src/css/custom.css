@@ -153,11 +153,11 @@
 }
 
 .feature:first-child {
-  background-image: linear-gradient(-20deg, rgba(175, 143, 111, 0.45) 5%, rgb(175, 143, 111) 50%);
+  background-image: linear-gradient(to top, rgba(175, 143, 111, 0.6) 5%, rgb(175, 143, 111) 50%);
 }
 
 .feature:nth-child(2) {
-  background-image: linear-gradient(20deg, rgba(175, 143, 111, 0.45) 5%, #af8f6f 50%);
+  background-image: linear-gradient(to top, rgba(175, 143, 111, 0.6) 5%, #af8f6f 50%);
 }
 
 .feature h3 {
@@ -292,5 +292,10 @@
 
   .features {
     flex-direction: column;
+  }
+
+  .feature img {
+    height: auto;
+    max-height: 250px;
   }
 }
