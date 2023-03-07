@@ -6,17 +6,19 @@ import Link from '@docusaurus/Link';
 const FeatureList = [
   {
     title: 'Tutorials',
-    img: require('../../../static/img/tutorials.png').default,
+    img: require('../../../static/img/tutorial-landing-transparent.png').default,
     linkTo: 'tutorials',
+    description: 'These tutorials provide step-by-step guidance on how to use specific programming languages, including syntax, variables, loops, and functions. Learning these tutorials will make you a very skilled programmer. They can cover a range of programming languages such as Python, Java, JavaScript, C++, and more.'
   },
   {
     title: 'Posts',
-    img: require('../../../static/img/blog.png').default,
+    img: require('../../../static/img/blog-landing-transparent.png').default,
     linkTo: 'posts',
+    description: "With these posts we share helpful information and insights on a variety of topics to help you learn new things and improve your skills. We cover a wide range of subjects, from practical skills to academic subjects. We believe that there's always something new to learn and explore, and we are passionate about sharing that knowledge with others."
   },
 ];
 
-function Feature({ img, title, linkTo }) {
+function Feature({ img, title, linkTo, description }) {
   return (
     <Link className={clsx('feature')} to={linkTo}>
       <div className="text--center padding-horiz--md">
@@ -24,6 +26,11 @@ function Feature({ img, title, linkTo }) {
       </div>
       <div className="text--center">
         <img src={img} alt={title} />
+      </div>
+      <div>
+        <h4>
+          {description}
+        </h4>
       </div>
     </Link>
   );
@@ -77,7 +84,7 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <h1>Features</h1>
-        <div className="grid col-3">
+        <div className="features">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

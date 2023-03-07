@@ -3,6 +3,8 @@ slug: college-application-process-beginner-guide
 title: College Application Process Beginner’s Guide
 authors: [lela]
 tags: [college application, common app]
+keywords: [college application, common app, ivy leagues, college admission]
+description: The college application process can be nerve-wracking and daunting for anyone. When I (an international student) decided to apply to colleges in the U.S., I had absolutely no clue where to start. I often felt alone, anxious, helpless, and confused. If this is you, you’re reading the right blog!
 ---
 
 # College Application Process Beginner’s Guide
