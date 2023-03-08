@@ -139,6 +139,11 @@ const config = {
             type: 'search',
             position: 'right',
           },
+          {
+            type: 'html',
+            position: 'right',
+            value: '<a href="https://www.buymeacoffee.com/eolnuha" target="_blank" class="buy-me-coffee-icon">'
+          },
         ],
       },
       footer: {
