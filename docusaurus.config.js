@@ -201,6 +201,10 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} The InnoHive.`,
+        logo: {
+          src: 'img/logo-top.png',
+          alt: 'The innohive logo',
+        },
       },
       prism: {
         theme: lightCodeTheme,
