@@ -126,7 +126,7 @@ for fruit in fruits:
 
 :::note For Loops
 A `for` loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
-Learn more about for loops at our tutorial: [Python For Loops](/python-loops/python-for-loops) 
+<!-- Learn more about for loops at our tutorial: [Python For Loops](/python-loops/python-for-loops)  -->
 :::
 
 ### Loop through index numbers
@@ -152,7 +152,7 @@ while i < len(fruits):
 :::warning Warning
 Remember to increase the index by 1, in this case the variable `i`, otherwise you will be stuck in an infinite loop.
 :::
-To learn more about `while` loops, checkout our tutorial: [Python While Loops](/python-loops/python-while-loops)
+<!-- To learn more about `while` loops, checkout our tutorial: [Python While Loops](/python-loops/python-while-loops) -->
 
 ## Sort Lists
 Python has a built-in function `sort()`, which sorts the list by default alphanumerically and ascending, 
