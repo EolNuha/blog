@@ -267,6 +267,51 @@
   display: none !important;
 }
 
+table {
+  width: 100%;
+  display: table;
+  box-sizing: border-box;
+  text-indent: initial;
+  border: none;
+}
+
+table thead,
+table tr:nth-child(2n-1) {
+  background-color: var(--ifm-table-stripe-background);
+}
+
+table tr:nth-child(2n) {
+  background-color: var(--ifm-table-background);
+}
+
+.column10 {
+  max-width: 10%;
+}
+
+.column20 {
+  width: 20%;
+}
+
+.column25 {
+  width: 25%;
+}
+
+.column30 {
+  width: 30%;
+}
+
+.column40 {
+  width: 40%;
+}
+
+.column50 {
+  width: 50%;
+}
+
+.column60 {
+  width: 60%;
+}
+
 
 @media only screen and (max-width: 996px) {
   .col-4 {

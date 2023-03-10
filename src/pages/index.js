@@ -29,7 +29,7 @@ export default function Home() {
       </Head>
       <Layout
         title={`Homepage`}
-        description="Description will go into a meta tag in <head />">
+        description="The Innohive is a programming tutorial blog that offers helpful information and practical examples for beginners and experienced programmers. We make sure to keep you up with the trends of the tech world!">
         <HomepageHeader />
         <main>
           <HomepageFeatures />

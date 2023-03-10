@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: "Python Strings"
-description: "Python Numbers: Python provides several data types for working with numbers, including integers, floating-point numbers, and complex numbers. In this blog post, we will explore these data types and their properties in detail."
+description: "Python Strings: In this blog post, we will explore the basics of Python strings, including how to create and manipulate them."
 keywords: [python strings, string slicing, string methods, string concatenation]
 ---
 
@@ -135,7 +135,60 @@ In this example, the `upper()` method converts all characters in the string to u
 
 ## Escape Character
 There are illegal characters in a string, for example using double quotes inside a string that is surrounded by double quotes.
-To escape characters that are illegal in a string, you can use an escape character
+To escape characters that are illegal in a string, you can use an escape character which is a backslash `\` followed by the character you want to insert.
+:::warning Error
+You will get an error if you use double quotes inside a string that is surrounded by double quotes:
+```python
+txt = "Hello World this is "The Innohive" blog"
+```
+:::
+Instead what you should, do is use the escape character to insert the double strings:
+```python
+txt = "Hello World this is \"The Innohive\" blog"
+```
+
+<table>
+<thead>
+<th>Code</th>
+<th>Result</th>
+</thead>
+<tr>
+<td class="column50"><code>\'</code></td>
+<td>Single quote</td>
+</tr>
+<tr>
+<td class="column50"><code>\\</code></td>
+<td>Backslash</td>
+</tr>
+<tr>
+<td class="column50"><code>\n</code></td>
+<td>New line</td>
+</tr>
+<tr>
+<td class="column50"><code>\r</code></td>
+<td>Carriage return</td>
+</tr>
+<tr>
+<td class="column50"><code>\t</code></td>
+<td>Tab</td>
+</tr>
+<tr>
+<td class="column50"><code>\b</code></td>
+<td>Backspace</td>
+</tr>
+<tr>
+<td class="column50"><code>\f</code></td>
+<td>Form feed</td>
+</tr>
+<tr>
+<td class="column50"><code>\ooo</code></td>
+<td>Octal value</td>
+</tr>
+<tr>
+<td class="column50"><code>\xhh</code></td>
+<td>Hex value</td>
+</tr>
+</table>
 
 ## Conclusion
 
