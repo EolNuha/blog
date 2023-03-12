@@ -5,7 +5,7 @@ description: "One of the most fundamental data structures in Python is the list.
 keywords: [python lists, list add, list remove, list access, sort list, loop lists, join lists, list methods]
 ---
 
-# Python Lists
+# Python Lists: A Comprehensive Guide to Using Lists in Python
 
 One of the most fundamental data structures in Python is the list. Lists are ordered collections of items, which can be of different data types, such as integers, strings, or even other lists. In this blog post, we will explore the basics of Python lists, including how to access, change, add, and remove list items.
 Lists are created using square brackets `[]`.
@@ -117,6 +117,7 @@ del fruits # remove the entire list
 
 ## Loop Lists
 To loop through the items of a list we can use a `for` loop.
+
 **Example: print all the items of the list, one by one**
 ```python
 fruits = ['apple', 'banana', 'cherry', 'orange', 'kiwi']
