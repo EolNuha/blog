@@ -1,10 +1,11 @@
 ---
 sidebar_position: 2
+title: Python Syntax
 description: "Python Syntax: One of the most distinctive and unique features of Python syntax is its use of indentation to denote code blocks. In Python, code blocks are defined by their indentation level, rather than by brackets or other delimiters like in other programming languages, such as C++ or Java."
 keywords: [python syntax, python comments, python variables, python data types]
 ---
 
-# Python Syntax
+# Python Syntax: A Comprehensive Guide for Beginners
 
 ## Introduction
 

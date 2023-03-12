@@ -2,6 +2,7 @@
   "label": "Python Collections",
   "position": 7,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "There are four collection data types in the Python programming language: Lists, Tuples, Sets, and Dictionaries. Lists are a collection which are ordered and changeable and allow duplicate members. Tuples are a collection which are ordered, unchangeable, and allow duplicate members. Sets are a collection which are unordered, unchangeable, unindexed, and no duplicate members. Dictionaries are a collection which are ordered, changeable, and no duplicate members."
   }
 }

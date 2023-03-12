@@ -1,10 +1,11 @@
 ---
 sidebar_position: 3
+title: Python Data Types
 description: "Python Data Types: Python is an object-oriented programming language, which means that everything in Python is an object. One of the most important aspects of Python programming is understanding data types."
 keywords: [python data types, python integers, python strings, python collections]
 ---
 
-# Python Data Types
+# Python Data Types: A Complete Overview
 
 Python is an object-oriented programming language, which means that everything in Python is an object. One of the most important aspects of Python programming is understanding data types. In Python, there are several built-in data types that you can use to store different types of data. Here are some of the most common data types in Python:
 
