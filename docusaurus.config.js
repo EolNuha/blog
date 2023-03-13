@@ -91,12 +91,12 @@ const config = {
       // Replace with your project's social card
       algolia: {
         // The application ID provided by Algolia
-        appId: 'KZI8MSTZGM',
+        appId: 'ZD98CP4966',
 
         // Public API key: it is safe to commit it
-        apiKey: 'f81670a54ed74caea7efef22ec931e46',
+        apiKey: 'd5713de80c4f42fb685418e2a91c2611',
 
-        indexName: 'dev_theinnohive',
+        indexName: 'eolnuhaio',
 
         // Optional: see doc section below
         contextualSearch: true,
