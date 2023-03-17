@@ -13,6 +13,8 @@
 .heroTitle {
   color: white !important;
   font-size: 3rem !important;
+  display: inline-flex;
+  align-items: center;
 }
 
 .heroSubtitle {
