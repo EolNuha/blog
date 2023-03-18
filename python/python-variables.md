@@ -113,7 +113,7 @@ second_message = "World"
 
 print(first_message + second_message) #outputs: HelloWorld
 ```
-But, if you try to combine a string and a number with the `+` operator, Python will give you an error:]
+But, if you try to combine a string and a number with the `+` operator, Python will give you an error:
 
 :::warning Type Error 
 
