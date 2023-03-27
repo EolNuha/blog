@@ -15,7 +15,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className={clsx("hero__title", styles.heroTitle)}><img src={img} alt="Logo short" height={70} /> THE INNOHIVE</h1>
+        <h1 className={clsx("hero__title", styles.heroTitle)}><img src={img} alt="Logo short"  className={styles.homePageLogo} /> THE INNOHIVE</h1>
         <p className={clsx("hero__subtitle", styles.heroSubtitle)}>Blogs</p>
       </div>
     </header>

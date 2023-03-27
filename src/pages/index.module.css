@@ -21,6 +21,10 @@
   color: white !important;
 }
 
+.homePageLogo {
+  height: 70px;
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
@@ -36,5 +40,9 @@
 @media only screen and (max-width: 660px) {
   .heroTitle {
     font-size: 1.5rem !important;
+  }
+
+  .homePageLogo {
+    height: 40px;
   }
 }

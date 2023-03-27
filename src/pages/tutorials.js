@@ -8,12 +8,14 @@ import HomepageTutorials from '@site/src/components/TutorialspageFeatures';
 
 import styles from './index.module.css';
 
+const img = require('../../static/img/logo-short-white.png').default;
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className={clsx("hero__title", styles.heroTitle)}>THE INNOHIVE</h1>
+        <h1 className={clsx("hero__title", styles.heroTitle)}><img src={img} alt="Logo short" className={styles.homePageLogo} /> THE INNOHIVE</h1>
         <p className={clsx("hero__subtitle", styles.heroSubtitle)}>Tutorials</p>
       </div>
     </header>
