@@ -125,12 +125,12 @@ const config = {
          */
         playgroundPosition: 'bottom',
       },
-      image: 'img/logo-left.png',
+      image: 'img/innohive-preview.png',
       navbar: {
         title: '',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo-left.png',
+          src: 'img/logo-left-black.png',
         },
         items: [
           {to: '/tutorials', label: 'Tutorials', position: 'left'},
