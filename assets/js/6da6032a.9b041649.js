@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[8705],{943:l=>{l.exports=JSON.parse('{"label":"college application","permalink":"/blog/posts/tags/college-application","allTagsPath":"/blog/posts/tags","count":1}')}}]);

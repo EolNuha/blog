@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[6619],{6990:l=>{l.exports=JSON.parse('[{"label":"SATs","permalink":"/blog/posts/tags/sa-ts","count":1},{"label":"college application","permalink":"/blog/posts/tags/college-application","count":2},{"label":"common app","permalink":"/blog/posts/tags/common-app","count":2}]')}}]);
